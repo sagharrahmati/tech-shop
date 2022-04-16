@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: yekan;
+    src: url(/font/Yekan.ttf);
+}
+.header{
+    height: 400px;
+    background-image: url(/img/gooshi.jpg);
+    background-size: cover;
+}
+ul li{
+    font-family: yekan;
+    list-style-type: none;
+   display: inline-block;
+   margin: 0px 10px;
+   float: right;
+  /*  border: 0.5px solid blue; */
+   padding: 5px;
+   border-radius: 10px;
+ background-color: rgba(255, 255, 255, 0.379);
+}
+ul li a{
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+.content{
+    height: 50px;
+background-color: dodgerblue;
+    text-align: center;
+    font-family: yekan;
+    
+}
+
+
+
+}
+aside{
+    width: 200px;
+    height: 500px;
+    float: left;
+    background-color: midnightblue;
+}
+.right{
+    width: 200px;
+    height:500px;
+    background-color: chocolate;
+    float: right;
+    display: inline-block;
+    
+}
+img{
+    display: inline-block;
+    height: 170PX;
+    border-radius: 100PX;
+    float: left;
+}
+.techno{
+    font-family: yekan;
+    font: size 8000px ;
+    font-weight: 900;
+    display: inline-block;
+}
+#shop{
+    color: darkgreen;
+}
+button{
+    height: 50px;
+font-family: yekan;
+background-color: darkorange;
+padding: 10px;
+border-radius: 50px;
+cursor: pointer;
+display: inline-block;
+}
+.btn:hover{
+    color: rgb(10, 101, 22);
+}
+.h2{
+    font-family: yekan;
+}
+.class{
+    display: inline-block;
+}
+h3{
+    font-family: yekan;
+    font-weight: 900;
+    color: darkred;
+}
